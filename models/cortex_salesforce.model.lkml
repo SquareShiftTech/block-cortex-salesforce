@@ -1,7 +1,7 @@
 
 
 # Define the database connection to be used for this model.
-connection: "@{CONNECTION_NAME}"
+connection: "block-cortex-salesforce"
 
 # include all the views
 include: "/views/**/*.view"
@@ -102,6 +102,3 @@ explore: sales_activities_engagement_opportunity_pipeline {
     relationship: one_to_many
   }
 }
-
-
-
